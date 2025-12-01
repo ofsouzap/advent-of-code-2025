@@ -242,3 +242,7 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
+# Advent of code personal inputs
+inputs/
+test-inputs/
