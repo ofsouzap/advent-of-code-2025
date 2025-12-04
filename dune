@@ -1,5 +1,5 @@
-(executable
- (name day1)
+(executables
+ (names day1)
  (libraries core)
  (preprocess
   (pps ppx_jane)))

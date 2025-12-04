@@ -52,7 +52,7 @@ let parse_moves input =
   String.split ~on:'\n' input |> List.map ~f:parse_move
 
 let () =
-  let moves = parse_moves (In_channel.input_all In_channel.stdin) in
+  let moves = parse_moves (In_channel.read_all (Sys.get_argv ()).(1)) in
   (* let _, zero_count = solve_part1 moves in
   ignore solve_part2; *)
   ignore solve_part1;
