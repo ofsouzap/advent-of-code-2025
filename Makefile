@@ -17,6 +17,9 @@ day5.exe: day5.cpp
 day6.exe: day6.cpp
 	g++ -o day6.exe day6.cpp
 
+day7.exe: day7.cpp
+	g++ -o day7.exe day7.cpp
+
 clean:
-	rm -f day1.exe day3.exe day4.exe day5.exe day6.exe
+	rm -f day1.exe day3.exe day4.exe day5.exe day6.exe day7.exe
 	dune clean
